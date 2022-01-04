@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;500;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -13,14 +15,57 @@
   }
 }
 
+
+
+.center {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  font-size: 20px;
+}
+
+.web404 {
+  background-color: cornflowerblue;
+}
+
+.font {
+  font-family: 'Sora', sans-serif;
+  color: whitesmoke;
+}
+.link:link {
+  font-family: 'Sora', sans-serif;
+  color: #2bbee7;
+}
+.link:visited {
+  font-family: 'Sora', sans-serif;
+  color: #f64223;
+}
+.link:hover {
+  font-family: 'Sora', sans-serif;
+  color: #49d1f6;
+}
+.link:active {
+  font-family: 'Sora', sans-serif;
+  color: #54b1ca;
+}
+.big {
+  font-size: 100px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(1px + 2vmin);
   color: white;
 }
 
