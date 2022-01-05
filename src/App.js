@@ -1,8 +1,9 @@
 import logo from './Logo.png';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import ServerBanner from './images/Banners/ubuntu-server-desktop-post.png'
 
-const ImageURL = "https://preview.redd.it/vezrf8qmcf981.jpg?width=960&crop=smart&auto=webp&s=8e93f516586da077ae23712621ef9fe7028de193"
+const ImageURL = "https://www.reddit.com/r/wallpaper/comments/ru04re/dark_blue_mountains_3840x2160/"
 
 function App() {
   return (
@@ -65,13 +66,10 @@ function Home() {
 function Project() {
   return (
     <>
-    <header class='box'>
+    <header class='box font'>
 
-        <h2>Who are we?</h2>
-        <p>
-          That feels like an existential question, don't you
-          think?
-        </p>
+        <h2>Projects</h2>
+          <p>Coming Soon</p>
       <nav>
         <Link to="/">Home</Link>
       </nav>
@@ -85,7 +83,9 @@ function NoWeb() {
     <header class='web404'>
           <div class='font'>
       <h1>:(</h1>
-      <h1>Wrong Site</h1>
+      <h1>404 Error</h1>
+      <h3>An unexpected error has happend.</h3>
+      <h5> Error: 404 </h5>
       <nav>
         <Link to="/" class="link">Home</Link>
       </nav>
