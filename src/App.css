@@ -31,6 +31,10 @@ footer {
 
 .web404 {
   background-color: cornflowerblue;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #2bbee7;
+  border-radius: 15%;
 }
 
 .box {
@@ -104,6 +108,27 @@ img {
 
 .App-link {
   color: #61dafb;
+}
+
+
+.DiscordBox {
+
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 25%;
+  width: 15%;
+  height: auto;
+  padding: 15px;
+}
+
+.DiscordButton {
+  background-color: #5865F2;
+  
+}
+
+.DiscordLogo {
+  width: 50%;
+  height: auto;
 }
 
 @keyframes App-logo-spin {
