@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;500;700&display=swap');
 
+
+
 .App {
   text-align: center;
 }
@@ -33,14 +35,16 @@ footer {
 
 .box {
   border-radius: 50px;
-  border-width: 5px;
+  border-width: 2px;
   border-style: solid;
-  border-color:  rgba(170, 170, 170, 0.424);
-  background-color: rgba(170, 170, 170, 0.424);
+  border-color:  rgba(124, 52, 192, 0.424);
+  background-color: rgba(124, 52, 192, 0.424);
   backdrop-filter: blur(10px);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 50px;
+  padding: 40px;
+  width: 500px;
+  height: auto;
 }
 
 .font {
@@ -67,13 +71,25 @@ footer {
   font-size: 100px;
 }
 
-.filter {
-background-size: cover;
-backdrop-filter: sepia(.4);
+
+img {
+  max-width: 15%;
+  height: auto;
+}
+
+.PFP {
+  border-radius: 60%;
+  border-style: solid;
+  border-collapse: inherit;
+  border-spacing: 10px;
+  border-width: 15px;
+  border-color: rgb(124, 52, 192);
+  background-color: rgb(124, 52, 192);
+  
 }
 
 .App-header {
-  background-image: url('images/background.png');
+  background-image: url('https://preview.redd.it/vezrf8qmcf981.jpg?width=960&crop=smart&auto=webp&s=8e93f516586da077ae23712621ef9fe7028de193');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

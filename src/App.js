@@ -1,17 +1,20 @@
-import logo from './logo.svg';
+import logo from './Logo.png';
 import './App.css';
 
+const ImageURL = "https://preview.redd.it/vezrf8qmcf981.jpg?width=960&crop=smart&auto=webp&s=8e93f516586da077ae23712621ef9fe7028de193"
 
 function App() {
   return (
     
     <div className="App">
-      <div class="filter">
       <header className="App-header">
+        
+       
       <div class="box">
       <div class="center font">
-        
-        
+      
+    <img src={logo} alt="Profile Picture" class="PFP"></img>
+
     <h1>Herwork06</h1>
     <p>Hi! I am Herwork06 a coder, 3D artist and linux server developer who lives in Norway 🇳🇴 </p>
     <p>Links: </p>
@@ -29,9 +32,8 @@ function App() {
 </div>
       </header>
       <footer class='font'>
-        <a href="https://www.reddit.com/r/wallpaper/comments/rkf90a/colorful_mountains_1920x1080/" target="_blank" rel="noreferrer" class='link'>Image Source</a>
+        <a href={ImageURL} target="_blank" rel="noreferrer" class='link'>Image Source</a>
     </footer>
-    </div>
     </div>
   );
 }
