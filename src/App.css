@@ -46,8 +46,8 @@ footer {
   backdrop-filter: blur(10px);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 40px;
-  width: 500px;
+  padding: 5%;
+  width: 55%;
   height: auto;
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 .App-header {
-  background-image: url('https://i.redd.it/hou9eclfz6981.jpg');
+  background-image: url('https://i.redd.it/bmv66cks92a81.png');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -115,6 +115,12 @@ img {
   color: white;
 }
 
+.VoltLogo {
+  border-color: rgba(11, 89, 233, 0.294);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 100px;
+}
 
 .App-link {
   color: #61dafb;

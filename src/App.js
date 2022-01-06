@@ -2,8 +2,9 @@ import logo from './Logo.png';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import ServerBanner from './images/Banners/ubuntu-server-desktop-post.png'
+import VoltLogo from './images/VoltBot.jpg'
 
-const ImageURL = "https://www.reddit.com/r/wallpaper/comments/ru04re/dark_blue_mountains_3840x2160/"
+const ImageURL = "https://www.reddit.com/r/wallpapers/comments/rxdh26/seashell_sunset_5000_x_2750/"
 
 function App() {
   return (
@@ -12,12 +13,16 @@ function App() {
       <header className="App-header">
         
        
-      
+  
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/project" element={<Project />} />
-      <Route path="/404" element={<NoWeb />} />
+      <Route class='link' path="/" element={<Home />} />
+      <Route class='link' path="/project" element={<Project />} />
+      <Route class='link' path="/project/voltbot" element={<Voltbot />} />
+      <Route class='link' path="/404" element={<NoWeb />} />
     </Routes>
+    <footer class='font'>
+        <a href={ImageURL} target="_blank" rel="noreferrer" class='link'>Image Source</a>
+    </footer>
     </header>
 </div>
 
@@ -40,9 +45,9 @@ function Home() {
     <p>Hi! I am Herwork06 a coder, 3D artist and linux server developer who lives in Norway 🇳🇴 </p>
     <p>Links: </p>
         
-    <Link to="/project">Projects</Link>
+    <Link class='link' to="/project">Projects</Link>
     <br></br>
-    <Link to="/404">Discord</Link>
+    <Link class='link' to="/404">Discord</Link>
     <br></br>
     <a href="https://twitter.com/Herwork06" target="_blank" rel="noreferrer" class='link'>Twitter</a>
     <br></br>
@@ -55,9 +60,7 @@ function Home() {
 </div>
 
       </header>
-      <footer class='font'>
-        <a href={ImageURL} target="_blank" rel="noreferrer" class='link'>Image Source</a>
-    </footer>
+
     </div>
     </>
   );
@@ -69,9 +72,31 @@ function Project() {
     <header class='box font'>
 
         <h2>Projects</h2>
-          <p>Coming Soon</p>
+        <Link class='link' to="/project/voltbot">VoltBot</Link>
+          <p>More is coming soon
+          </p>
       <nav>
-        <Link to="/">Home</Link>
+        <Link class='link' to="/">Home</Link>
+      </nav>
+      </header>
+    </>
+  );
+}
+function Voltbot() {
+  return (
+    <>
+    <header class='box font'>
+
+        <h2>VoltBot</h2>
+        <img src={VoltLogo} alt='VoltBot Logo' class='VoltLogo'></img>
+          <p>
+            VoltBot! <br></br>
+            VoltBot is a free and public Discord Bot for everyone to use :D <br></br>
+            Check more info at the website!
+          </p>
+          <button>VoltBot Website</button>
+      <nav>
+        <Link class='link' to="/">Home</Link>
       </nav>
       </header>
     </>
@@ -87,7 +112,7 @@ function NoWeb() {
       <h3>An unexpected error has happend.</h3>
       <h5> Error: 404 </h5>
       <nav>
-        <Link to="/" class="link">Home</Link>
+        <Link class='link' to="/" class="link">Home</Link>
       </nav>
       </div>
       </header>
