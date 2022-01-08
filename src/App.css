@@ -34,16 +34,16 @@ footer {
   border-style: solid;
   border-width: 10px;
   border-color: #2bbee7;
-  border-radius: 15%;
+  border-radius: 15px;
 }
 
 .box {
   border-radius: 50px;
   border-width: 2px;
   border-style: solid;
-  border-color:  rgba(124, 52, 192, 0.424);
-  background-color: rgba(124, 52, 192, 0.424);
-  backdrop-filter: blur(10px);
+  border-color:  rgba(246, 183, 186, 0.424);
+  background-color: rgba(251, 178, 178, 0.424);
+  backdrop-filter: blur(25px);
   background-position: center;
   background-repeat: no-repeat;
   padding: 5%;
@@ -57,19 +57,19 @@ footer {
 }
 .link:link {
   font-family: 'Sora', sans-serif;
-  color: #2bbee7;
+  color: #1f69f3;
 }
 .link:visited {
   font-family: 'Sora', sans-serif;
-  color: #f64223;
+  color: #0a8de4;
 }
 .link:hover {
   font-family: 'Sora', sans-serif;
-  color: #49d1f6;
+  color: #2723df;
 }
 .link:active {
   font-family: 'Sora', sans-serif;
-  color: #54b1ca;
+  color: #0b6a85;
 }
 .big {
   font-size: 100px;
@@ -87,8 +87,8 @@ img {
   border-collapse: inherit;
   border-spacing: 10px;
   border-width: 15px;
-  border-color: rgb(124, 52, 192);
-  background-color: rgb(124, 52, 192);
+  border-color: rgb(192, 52, 52);
+  background-color: rgb(192, 52, 52);
   
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 .App-header {
-  background-image: url('https://i.redd.it/bmv66cks92a81.png');
+  background-image: url('https://i.redd.it/yfr3eznwutj01.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -117,10 +117,52 @@ img {
 
 .VoltLogo {
   border-color: rgba(11, 89, 233, 0.294);
-  border-width: 10px;
+  border-width: 5px;
   border-style: solid;
   border-radius: 100px;
 }
+.VoltButton {
+  border-color: rgba(42, 115, 250, 0.294);
+  background-color: rgb(119, 161, 240);
+  color: whitesmoke;
+  font-family: 'Sora', sans-serif;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  
+}
+.VoltButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.VoltButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.VoltButton:hover span {
+  padding-right: 25px;
+}
+
+.VoltButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.PootLogo {
+  border-color: rgba(255, 145, 0, 0.63);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 100px;
+}
+
 
 .App-link {
   color: #61dafb;
