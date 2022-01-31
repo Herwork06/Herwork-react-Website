@@ -30,10 +30,10 @@ footer {
 }
 
 .web404 {
-  background-color: cornflowerblue;
+  background-color: black;
   border-style: solid;
   border-width: 10px;
-  border-color: #2bbee7;
+  border-color: gray;
   border-radius: 15px;
 }
 
@@ -41,8 +41,8 @@ footer {
   border-radius: 50px;
   border-width: 2px;
   border-style: solid;
-  border-color:  rgba(246, 183, 186, 0.424);
-  background-color: rgba(251, 178, 178, 0.424);
+  border-color:  rgba(85, 46, 48, 0.424);
+  background-color: rgba(93, 53, 53, 0.424);
   backdrop-filter: blur(25px);
   background-position: center;
   background-repeat: no-repeat;
@@ -57,19 +57,19 @@ footer {
 }
 .link:link {
   font-family: 'Sora', sans-serif;
-  color: #1f69f3;
+  color: #bb2727;
 }
 .link:visited {
   font-family: 'Sora', sans-serif;
-  color: #0a8de4;
+  color: #721c1c;
 }
 .link:hover {
   font-family: 'Sora', sans-serif;
-  color: #2723df;
+  color: rgb(223, 176, 48);
 }
 .link:active {
   font-family: 'Sora', sans-serif;
-  color: #0b6a85;
+  color: #bb2727;
 }
 .big {
   font-size: 100px;
@@ -87,8 +87,8 @@ img {
   border-collapse: inherit;
   border-spacing: 10px;
   border-width: 15px;
-  border-color: rgb(192, 52, 52);
-  background-color: rgb(192, 52, 52);
+  border-color: rgb(41, 24, 24);
+  background-color: rgb(42, 28, 28);
   
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 .App-header {
-  background-image: url('https://i.redd.it/yfr3eznwutj01.jpg');
+  background-image: url('images/WebBackgorund.png');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

@@ -5,7 +5,7 @@ import ServerBanner from './images/Banners/ubuntu-server-desktop-post.png'
 import VoltLogo from './images/VoltBot.jpg'
 import PootOSlogo from './images/PootOSLogo.png'
 
-const ImageURL = "https://www.reddit.com/r/wallpapers/comments/821d9u/star_wars_1980x1080/"
+const ImageURL = "images/WebBackground.png"
 
 function App() {
   return (
@@ -37,14 +37,20 @@ function Home() {
     <div className="App">
       <header className="App-header">
         
-       
-      <div class="box">
-      <div class="center font">
+
+      <div class="box center font">
       
     <img src={logo} alt="Profile Picture" class="PFP"></img>
 
     <h1>Herwork06</h1>
-    <p>Hi! I am Herwork06 a coder, 3D artist and linux server developer who lives in Norway 🇳🇴 </p>
+    <p>Hi! I am Herwork06.
+    <br></br>
+    | Leader of VoltBot!
+    <br></br>
+    | Developer at <a href="https://twitter.com/kritzkast" target="_blank" rel="noreferrer" class='link'>KritzKast</a>
+    <br></br>
+    | Linxus Server Developer
+    </p>
     <p>Links: </p>
         
     <Link class='link' to="/project">Projects</Link>
@@ -57,7 +63,6 @@ function Home() {
     <br></br>
     <a href="https://www.youtube.com/channel/UC6cs1e1HpujA4yNGAdUYfMg" target="_blank" rel="noreferrer" class='link'>YouTube</a>
 
-    </div>
 
 </div>
 
@@ -120,13 +125,13 @@ function PootOS() {
             <br></br>
             But why did i make a server?
             <br></br>
-            Beacuse I really don't want to pay for VPN or a Server Hosint provider. If I can host it by myself I will host it by myself
+            Beacuse I really don't want to pay for VPN or a Server Hosting provider. If I can host it by myself I will host it by myself
             <br></br>
             <br></br>
             Who is using my server:
             <br></br>
             <br></br>
-            I am hosting 2 game server Minecraft and TF2 for <a href="https://twitter.com/kritzkast" target="_blank" rel="noreferrer" class='link'>KritzKast</a>. Join thiers game servers today!
+            I am hosting 2 game server Minecraft and TF2 for <a href="https://twitter.com/kritzkast" target="_blank" rel="noreferrer" class='link'>KritzKast</a>. Join thier game servers today!
             <br></br>
             I am hosting 2 Discord bots for ItsDefinitelyMatt and SonixTheLux!
             <br></br>
