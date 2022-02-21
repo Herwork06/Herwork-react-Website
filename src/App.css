@@ -81,6 +81,85 @@ img {
   height: auto;
 }
 
+.NormalButton {
+  border-color: #721c1c;
+  background-color: #bb2727;
+  color: black;
+  font-family: 'Sora', sans-serif;
+  border-width: 3px;
+  border-style: solid;
+  width: 50%;
+  height: auto;
+  border-radius: 100px;
+}
+
+.NormalButton:hover {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.NormalButton img {
+  max-width: 20%;
+  height: auto;
+}
+
+.NormalButton .MenuSpan {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  top: -18px;
+  font-size: 20px;
+}
+
+.NormalButton .MenuSpan:after {
+  content: '\00bb';
+  position:absolute;
+  opacity: 0;
+  right: -100px;
+  transition: 0.5s;
+
+}
+
+.NormalButton:hover span {
+  padding-right: 25px;
+}
+
+
+.NormalButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.NormalButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.NormalButton span:after {
+  content: '\00bb';
+  position:absolute;
+  opacity: 0;
+  right: -100px;
+  transition: 0.5s;
+
+}
+
+.NormalButton:hover span {
+  padding-right: 25px;
+}
+
+
+.NormalButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .PFP {
   border-radius: 60%;
   border-style: solid;

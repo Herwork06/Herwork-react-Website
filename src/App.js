@@ -4,7 +4,11 @@ import './App.css';
 import ServerBanner from './images/Banners/ubuntu-server-desktop-post.png'
 import VoltLogo from './images/VoltBot.jpg'
 import PootOSlogo from './images/PootOSLogo.png'
-
+import TwitterIcon from './images/icons8-twitter-480.png'
+import TwitchIcon from './images/icons8-twitch-480.png'
+import YTIcon from './images/icons8-youtube-480.png'
+import DiscordIcon from './images/icons8-discord-new-480.png'
+import ProjectIcon from './images/icons8-folder-480.png'
 const ImageURL = "images/WebBackground.png"
 
 function App() {
@@ -53,15 +57,16 @@ function Home() {
     </p>
     <p>Links: </p>
         
-    <Link class='link' to="/project">Projects</Link>
+    <Link class='link' to="/project"><button class='NormalButton'><img src={ProjectIcon} alt='Twitter Logo'></img><span class="MenuSpan">Projects</span></button></Link> <br></br>
     <br></br>
-    <Link class='link' to="/404">Discord</Link>
+    <Link class='link' to="/404"><button class='NormalButton'><img src={DiscordIcon} alt='Twitter Logo'></img><span class="MenuSpan">Discord</span></button></Link> <br></br>
     <br></br>
-    <a href="https://twitter.com/Herwork06" target="_blank" rel="noreferrer" class='link'>Twitter</a>
+    <a href='https://twitter.com/Herwork06' target="_blank" rel="noreferrer"><button class='NormalButton'><img src={TwitterIcon} alt='Twitter Logo'></img><span class="MenuSpan">Twitter</span></button> </a>    <br></br>
     <br></br>
-    <a href="https://www.twitch.tv/herwork06" target="_blank" rel="noreferrer" class='link'>Twitch</a>
+    <a href='https://www.twitch.tv/herwork06' target="_blank" rel="noreferrer"><button class='NormalButton'><img src={TwitchIcon} alt='Twitter Logo'></img><span class="MenuSpan">Twitch</span></button> </a>    <br></br>
     <br></br>
-    <a href="https://www.youtube.com/channel/UC6cs1e1HpujA4yNGAdUYfMg" target="_blank" rel="noreferrer" class='link'>YouTube</a>
+    <a href='https://www.youtube.com/channel/UC6cs1e1HpujA4yNGAdUYfMg' target="_blank" rel="noreferrer"><button class='NormalButton'><img src={YTIcon} alt='Twitter Logo'></img><span class="MenuSpan">YouTube</span></button> </a>    <br></br>
+
 
 
 </div>
@@ -79,9 +84,9 @@ function Project() {
     <header class='box font'>
 
         <h2>Projects</h2>
-        <Link class='link' to="/project/voltbot">VoltBot</Link>
+        <Link class='link' to="/project/voltbot"><button class='NormalButton'><span>VoltBot</span></button></Link> <br></br>
         <br></br>
-        <Link class='link' to="/project/pootos">PootOS Server</Link>
+        <Link class='link' to="/project/pootos"><button class='NormalButton'><span>PootOS</span></button></Link> <br></br>
           <p>More is coming soon
           </p>
       <nav>
@@ -128,14 +133,22 @@ function PootOS() {
             Beacuse I really don't want to pay for VPN or a Server Hosting provider. If I can host it by myself I will host it by myself
             <br></br>
             <br></br>
-            Who is using my server:
+            My hosting list:
+            <br></br>
+            KritzKraft SMP
+            Join the server at their Discord Server!
+            <br></br>
+            EU Pre-Fortress 2
+            Download PF2 and join the server via: eu.prefortress.com
             <br></br>
             <br></br>
-            I am hosting 2 game server Minecraft and TF2 for <a href="https://twitter.com/kritzkast" target="_blank" rel="noreferrer" class='link'>KritzKast</a>. Join thier game servers today!
+            Discord Bots:
             <br></br>
-            I am hosting 2 Discord bots for ItsDefinitelyMatt and SonixTheLux!
+            VoltBot
             <br></br>
-            VoltBot is running on the server too.
+            MattBot
+            <br></br>
+            ImpBot
           </p>
       <nav>
         <Link class='link' to="/">Home</Link>
